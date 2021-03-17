@@ -1,14 +1,22 @@
 *{
+    box-sizing: border-box;
     padding: 0px;
     font-family: 'Poppins', sans-serif;
+}
+
+h1,h2{
+    color:hsl(234, 12%, 34%);
+    font-weight: 600;
 }
 p{
     color:hsl(229, 6%, 66%);
     font-size: 15px;
 }
 .container{
+    flex-direction: wrap;
+    margin-top:70px;
     display: flex;
-    justify-content:space-between;
+    justify-content:space-evenly;
     align-items: center;
 
 }
@@ -18,41 +26,48 @@ body{
     background-color:hsl(0, 0%, 98%) ;
 }
 .a{
-    border-top:10px solid hsl(180, 62%, 55%);
-    padding:10px;
+    border-top: 6px solid hsl(180, 62%, 55%);
     background-color: white;
     justify-content: center;
     width:30%;
     align-items: center;
     text-align: left;
-    box-shadow: 1px 1px 1px 1px gray;
+    box-shadow: 2px 1px 5px 1px #80808014 ;
+    
     border-radius: 5px;
+    padding:30px;
 }   
 .b{
-    box-shadow: 1px 1px 1px 1px gray;
-    border-top:10px solid hsl(0, 78%, 62%);
-    padding:10px;
+    box-shadow: 2px 1px 5px 1px #80808014 ;
+    border-top:6px solid hsl(0, 78%, 62%);
     background-color: white;
     border-radius: 5px;
     text-align: left;
+    padding:30px;
 }
 .c{
-    box-shadow: 1px 1px 1px 1px gray;
+    box-shadow: 2px 1px 5px 1px #80808014 ;;
     margin-top:30px;
-    border-top:10px solid  hsl(34, 97%, 64%);
-    padding:10px;
+    border-top:6px solid  hsl(34, 97%, 64%);
     background-color: white;
 border-radius: 5px;
     text-align: left;
+    padding:30px;
 }
 .d{
-    box-shadow: 1px 1px 1px 1px gray;
-    border-top:10px solid hsl(212, 86%, 64%);
-    padding:10px;
+    box-shadow: 2px 1px 5px 1px #80808014 ;
+    border-top:6px solid hsl(212, 86%, 64%);
     background-color: white;
     width:30%;
     text-align: left;
     border-radius: 5px;
+    padding:30px;
+}
+.ab{
+font-size: 32px;
+}
+h2{
+    margin-top:0px;
 }
 .cont{
     padding:30px 100px;
@@ -61,9 +76,10 @@ border-radius: 5px;
 display:flex;
 flex-direction: column;
 width:30%;
+flex-direction: wrap;
 }
 header{
-    width:40%;
+
     margin:auto;
     text-align:center;
 }
@@ -105,17 +121,17 @@ text-align:start;
 
 }
 header h1{
-    font-size: 25px;
+    font-size: 20px;
 }
 .ab{
     font-size: 20px;
 }
 .b{
-    margin-top:20px;
+    margin-top:30px;
     }
 
 .d{
-    margin-top:20px;
+    margin-top:30px;
     }
     
 }
